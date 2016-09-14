@@ -1,0 +1,37 @@
+!SESSION Wed Sep 14 18:45:17 IST 2016 ------------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2016-09-14 18:45:17.892
+!MESSAGE Could not find extension: com.ibm.cds
+!SESSION 2016-09-14 18:45:17.871 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IE
+Framework arguments:  -product com.ibm.rational.rsa.product.v95.ide
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.ibm.rational.rsa.product.v95.ide
+
+!ENTRY org.eclipse.osgi 4 0 2016-09-14 18:45:18.415
+!MESSAGE Bundle com.ibm.cds not found.
+
+!ENTRY org.eclipse.core.net 1 0 2016-09-14 18:46:08.504
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-09-14 18:46:08.884
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-14 18:46:08.885
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copy Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@752e4223,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7528089c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
