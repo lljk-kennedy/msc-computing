@@ -122,21 +122,21 @@
         </children>
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qGfGIX9gEeaNAY8bTtOAfQ" points="[37, -2, -426, 21]$[431, -23, -32, 0]"/>
       </edges>
-      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_7IoYgH9gEeaNAY8bTtOAfQ" element="_7ImjUH9gEeaNAY8bTtOAfQ" source="_49JYYH9gEeaNAY8bTtOAfQ" target="_gnSn0H9gEeaNAY8bTtOAfQ" fontName=".SF NS Text" fontHeight="8" routing="Tree" closestDistance="true" lineColor="8421504" lineWidth="0" showStereotype="Text">
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_7IoYgH9gEeaNAY8bTtOAfQ" element="_7ImjUH9gEeaNAY8bTtOAfQ" source="_49JYYH9gEeaNAY8bTtOAfQ" target="_gnSn0H9gEeaNAY8bTtOAfQ" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_7IoYgn9gEeaNAY8bTtOAfQ" type="NameLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_7Io_kH9gEeaNAY8bTtOAfQ" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_7Io_kX9gEeaNAY8bTtOAfQ" type="Name"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7IoYg39gEeaNAY8bTtOAfQ" y="-247"/>
         </children>
-        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7IoYgX9gEeaNAY8bTtOAfQ" points="[-11, -22, 23, 47]$[-13, -27, 21, 42]"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7IoYgX9gEeaNAY8bTtOAfQ" points="[14, -24, -38, 85]$[45, -67, -7, 42]"/>
       </edges>
-      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_79pU8H9gEeaNAY8bTtOAfQ" element="_79nfwH9gEeaNAY8bTtOAfQ" source="_58-dsH9gEeaNAY8bTtOAfQ" target="_gnSn0H9gEeaNAY8bTtOAfQ" fontName=".SF NS Text" fontHeight="8" routing="Tree" closestDistance="true" lineColor="8421504" lineWidth="0" showStereotype="Text">
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_79pU8H9gEeaNAY8bTtOAfQ" element="_79nfwH9gEeaNAY8bTtOAfQ" source="_58-dsH9gEeaNAY8bTtOAfQ" target="_gnSn0H9gEeaNAY8bTtOAfQ" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_79pU8n9gEeaNAY8bTtOAfQ" type="NameLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_79pU9H9gEeaNAY8bTtOAfQ" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_79pU9X9gEeaNAY8bTtOAfQ" type="Name"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_79pU839gEeaNAY8bTtOAfQ" y="-247"/>
         </children>
-        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_79pU8X9gEeaNAY8bTtOAfQ" points="[-609, -845, 2634, 3719]$[-609, -2273, 2634, 2291]$[-2414, -2273, 829, 2291]$[-2414, -3066, 829, 1498]"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_79pU8X9gEeaNAY8bTtOAfQ" points="[-31, -24, 60, 81]$[-91, -63, 0, 42]"/>
       </edges>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_GhS54H9hEeaNAY8bTtOAfQ" element="_GhOocH9hEeaNAY8bTtOAfQ" source="_58-dsH9gEeaNAY8bTtOAfQ" target="__1DEUH9gEeaNAY8bTtOAfQ" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_GhTg8H9hEeaNAY8bTtOAfQ" type="NameLabel">
