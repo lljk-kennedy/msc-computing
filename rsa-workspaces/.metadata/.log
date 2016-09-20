@@ -150,3 +150,78 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 2 0 2016-09-20 20:33:40.834
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-20 20:33:40.835
+!MESSAGE A conflict occurred for COMMAND+I:
+Binding(COMMAND+I,
+	ParameterizedCommand(Command(com.ibm.xtools.commands.italic,Italic,
+		Italic,
+		Category(com.ibm.xtools.richtext.control.richtextcategory,Rich Text Editor,Group of Rich Text Editor commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bc50a37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.xtools.contexts.richtext.dialogAndWindow,,,system)
+Binding(COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.ui.file.properties,Properties,
+		Display the properties of the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7337f87e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-20 20:33:40.835
+!MESSAGE A conflict occurred for COMMAND+F:
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(com.ibm.xtools.commands.find,FindReplace,
+		FindReplace,
+		Category(com.ibm.xtools.richtext.control.richtextcategory,Rich Text Editor,Group of Rich Text Editor commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@229468ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.xtools.contexts.richtext.dialog,,,system)
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e2a2b07,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-20 20:33:40.835
+!MESSAGE A conflict occurred for COMMAND+U:
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(com.ibm.xtools.commands.underline,Underline,
+		Underline,
+		Category(com.ibm.xtools.richtext.control.richtextcategory,Rich Text Editor,Group of Rich Text Editor commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@893ea78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.xtools.contexts.richtext.dialog,,,system)
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21ce3b50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-20 20:33:40.835
+!MESSAGE A conflict occurred for COMMAND+B:
+Binding(COMMAND+B,
+	ParameterizedCommand(Command(com.ibm.xtools.commands.bold,Bold,
+		Bold,
+		Category(com.ibm.xtools.richtext.control.richtextcategory,Rich Text Editor,Group of Rich Text Editor commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12e919ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ibm.xtools.contexts.richtext.dialog,,,system)
+Binding(COMMAND+B,
+	ParameterizedCommand(Command(org.eclipse.ui.project.buildAll,Build All,
+		Build all projects,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13b9ea2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
