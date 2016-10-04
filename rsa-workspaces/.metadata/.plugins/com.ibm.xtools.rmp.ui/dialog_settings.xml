@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Uml2ImportWizard">
+		<item value="" key="umlSource"/>
+		<item value="" key="umlDestination"/>
+		<item value="true" key="umlRecreateIDs"/>
+		<item value="false" key="umlOpenImportedModels"/>
+	</section>
+</section>
