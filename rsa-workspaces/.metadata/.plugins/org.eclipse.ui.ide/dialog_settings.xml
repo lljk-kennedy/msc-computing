@@ -13,6 +13,7 @@
 		<item value="com.ibm.xtools.modeler.ui.actions.NewModelProjectActionWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.gmf.runtime.emf.ui.modeling"/>
+			<item value="org.eclipse.gmf.runtime.emf.ui.modeling/umlExtensibility"/>
 		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
