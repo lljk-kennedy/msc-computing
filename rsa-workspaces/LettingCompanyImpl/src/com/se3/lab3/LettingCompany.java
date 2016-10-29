@@ -1,0 +1,32 @@
+package com.se3.lab3;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LettingCompany {
+	
+	String name;
+	List<Property> properties = new ArrayList<Property>();
+	
+	public LettingCompany(String thisName)
+	{
+		name = thisName;
+	}
+	
+	public void addProperty(Property thisProperty)
+	{
+		properties.add(thisProperty);
+	}
+	
+	public double computeTotalMonthlyRent()
+	{
+		double totalMonthlyRent = 0.0;
+		
+		for (int i = 0; i < properties.size(); i++)
+		{
+			totalMonthlyRent += properties.get(i).computeMonthlyRent();
+		}
+		
+		return totalMonthlyRent;
+	}
+}

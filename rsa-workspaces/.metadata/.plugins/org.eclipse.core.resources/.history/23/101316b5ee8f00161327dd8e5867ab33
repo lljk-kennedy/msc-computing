@@ -1,0 +1,49 @@
+package com.se3.lab3;
+
+public class TestClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Apartment ap1 = new Apartment("1A");
+			ap1.setMonthlyRent(400.0);
+			
+			Apartment ap2 = new Apartment("2A");
+			ap2.setMonthlyRent(900.0);
+			
+			Apartment ap3 = new Apartment("3A");
+			ap3.setMonthlyRent(100.0);
+
+			Apartment ap4 = new Apartment("4A");
+			ap4.setMonthlyRent(1500.0);
+			
+			Apartment ap5 = new Apartment("5A");
+			ap5.setMonthlyRent(600.0);
+			
+			Apartment ap6 = new Apartment("6A");
+			ap6.setMonthlyRent(400.0);
+			
+			Property property1 = new Property("Prop1");
+			Property property2 = new Property("Prop2");
+			
+			property1.addApartment(ap1);
+			property1.addApartment(ap2);
+			property1.addApartment(ap3);
+			
+			property2.addApartment(ap4);
+			property2.addApartment(ap5);
+			property2.addApartment(ap6);
+			
+			
+			LettingCompany letComp = new LettingCompany("LetCo1");
+			
+			letComp.addProperty(property1);
+			letComp.addProperty(property2);
+			
+			double totalRent = letComp.computeTotalMonthlyRent();
+			
+			System.out.print(totalRent);
+			
+	}
+
+}

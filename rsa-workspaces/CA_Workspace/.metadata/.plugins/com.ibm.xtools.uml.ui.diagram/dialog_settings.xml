@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CopyToImageDialog">
+		<item value="/Users/iain/iCloud Drive (Archive)/Documents/msc-computing/Software Design/CA" key="CopyToImageDialog.folder"/>
+		<item value="false" key="CopyToImageDialog.overwriteExisting"/>
+		<item value="png" key="CopyToImageDialog.imageFormat"/>
+		<item value="false" key="CopyToImageDialog.exportToHTML"/>
+	</section>
+</section>
