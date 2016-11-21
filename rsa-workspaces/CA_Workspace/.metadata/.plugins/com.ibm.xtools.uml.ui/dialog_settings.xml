@@ -13,7 +13,7 @@
 		<item value="false" key="com.ibm.xtools.uml.artifact"/>
 		<item value="false" key="com.ibm.xtools.uml.stateMachine"/>
 		<item value="false" key="com.ibm.xtools.uml.parameter"/>
-		<item value="true" key="Limit Search Results"/>
+		<item value="false" key="Limit Search Results"/>
 		<item value="false" key="com.ibm.xtools.uml.property"/>
 		<item value="false" key="com.ibm.xtools.uml.dataType"/>
 		<item value="false" key="com.ibm.xtools.uml.useCase"/>
@@ -28,14 +28,14 @@
 		<item value="false" key="com.ibm.xtools.uml.operation"/>
 		<item value="50" key="&amp;Limit number of matches to:"/>
 		<item value="false" key="com.ibm.xtools.uml.stereotype"/>
-		<item value="true" key="RESTRICT_SEARCH_RESULTS"/>
+		<item value="false" key="RESTRICT_SEARCH_RESULTS"/>
 		<item value="false" key="com.ibm.xtools.uml.collaboration"/>
 		<item value="false" key="com.ibm.xtools.uml.variable"/>
 		<item value="false" key="com.ibm.xtools.uml.package"/>
 		<section name="DialogBoundsSettings">
-			<item value="430" key="DIALOG_WIDTH"/>
+			<item value="1346" key="DIALOG_WIDTH"/>
 			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
-			<item value="690" key="DIALOG_HEIGHT"/>
+			<item value="1021" key="DIALOG_HEIGHT"/>
 			<item value="465" key="DIALOG_X_ORIGIN"/>
 			<item value="140" key="DIALOG_Y_ORIGIN"/>
 		</section>

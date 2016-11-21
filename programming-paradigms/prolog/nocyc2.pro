@@ -29,7 +29,6 @@ print_list([H|T]) :- writeln(H), print_list(T).
 
 print_all_path(X,Y) :- findall(P, show_path(X,Y,P), R), print_list(R).
 
-pathcyc(A,B) :-  walk(A,B,[]).
-walk(A,B,V) :- edge(A,B) ,  not(member(B,V)).
-walk(A,B,V) :- edge(A,X) ,  not(member(X,V)) ,   walk(X,B,[A|V]).
-
+pathcyc(A,B, P) :-  walk(A,B,[], P).
+walk(A,B,V,P) :- edge(A,B) ,  not(member(B,V)).
+walk(A,B,V,[X|P]) :- edge(A,X) ,  not(member(X,V)) ,   walk(X,B,[A|V], _).
