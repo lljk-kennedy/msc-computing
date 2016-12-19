@@ -462,7 +462,7 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_Dst484pjEeaQfPq8OSdX6A" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_Dst49IpjEeaQfPq8OSdX6A" type="Parent"/>
         <children xmi:type="notation:ListCompartment" xmi:id="_Dst49YpjEeaQfPq8OSdX6A" visible="false" type="Extension_Points"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DstR4YpjEeaQfPq8OSdX6A" x="30879" y="8037"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DstR4YpjEeaQfPq8OSdX6A" x="27354" y="8460"/>
       </children>
       <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_2dawoIpjEeaQfPq8OSdX6A" element="_2dZigIpjEeaQfPq8OSdX6A" fontName=".SF NS Text" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_2dbXsIpjEeaQfPq8OSdX6A" type="ImageCompartment">

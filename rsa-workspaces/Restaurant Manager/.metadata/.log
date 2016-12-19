@@ -1,0 +1,37 @@
+!SESSION Tue Nov 22 20:17:56 GMT 2016 ------------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2016-11-22 20:17:56.837
+!MESSAGE Could not find extension: com.ibm.cds
+!SESSION 2016-11-22 20:17:56.815 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IE
+Framework arguments:  -psn_0_3699591
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/iain/Documents/msc-computing/Github/msc-computing/rsa-workspaces/Restaurant Manager -psn_0_3699591
+
+!ENTRY org.eclipse.osgi 4 0 2016-11-22 20:17:57.348
+!MESSAGE Bundle com.ibm.cds not found.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-22 20:18:00.415
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-11-22 20:18:00.829
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-22 20:18:00.829
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copy Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@225fb75e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61d9dd15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)

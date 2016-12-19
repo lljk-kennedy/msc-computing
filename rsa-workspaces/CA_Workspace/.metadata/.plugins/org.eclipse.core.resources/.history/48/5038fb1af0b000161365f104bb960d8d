@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.5-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation">
+  <umlnotation:UMLDiagram xmi:id="_uNr0sLDnEeazmOliVWJCFQ" type="Sequence" element="_uNWdgrDnEeazmOliVWJCFQ" name="sequencediagram.dnx" measurementUnit="Himetric">
+    <children xmi:type="umlnotation:UMLShape" xmi:id="_uNr0sbDnEeazmOliVWJCFQ" element="_uNWdgrDnEeazmOliVWJCFQ" fontName=".SF NS Text" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_uNr0srDnEeazmOliVWJCFQ" type="interaction_compartment"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uNr0s7DnEeazmOliVWJCFQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uNr0tLDnEeazmOliVWJCFQ" x="1058" y="1058"/>
+    </children>
+  </umlnotation:UMLDiagram>
+  <uml:Package xmi:id="_uNWdgLDnEeazmOliVWJCFQ">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_uNWdgbDnEeazmOliVWJCFQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_uNWdgrDnEeazmOliVWJCFQ"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>
