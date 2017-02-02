@@ -1,0 +1,1 @@
+func(X,Y,Z) :- member(Z,X), member(Z,Y).
