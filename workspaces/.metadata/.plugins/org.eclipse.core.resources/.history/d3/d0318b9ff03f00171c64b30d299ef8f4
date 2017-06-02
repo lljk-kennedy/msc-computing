@@ -1,0 +1,37 @@
+public class MySet {
+	
+	private int[] array;
+		
+	public MySet(int[] newArray)
+	{
+		array = newArray;
+	}
+	
+	public Boolean setSize(int sizeToSet)
+	{
+		array = new int[sizeToSet];
+		return true;
+	}
+	
+	public Boolean changeElement(int elementToSet, int valToSet)
+	{
+		if (elementToSet > 0 && elementToSet < array.length)
+		{
+			array[elementToSet] = valToSet;
+			return true;
+		}
+		else return false;
+	}
+	
+	public int getElement(int element)
+	{
+		try{
+			return array[element];
+		}
+		catch (ndexOutOfBoundsException e)
+		{
+			System.err.println("IndexOutOfBoundsException: " + e.getMessage());
+		};
+	}
+		
+}

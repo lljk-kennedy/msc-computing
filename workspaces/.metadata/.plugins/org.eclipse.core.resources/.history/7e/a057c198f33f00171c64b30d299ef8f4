@@ -1,0 +1,46 @@
+public class MySet {
+	
+	private int[] array;
+		
+	public MySet(int[] newArray)
+	{
+		array = newArray;
+	}
+	
+	public Boolean setSize(int sizeToSet)
+	{
+		array = new int[sizeToSet];
+		return true;
+	}
+	
+	public Boolean changeElement(int elementToSet, int valToSet)
+	{
+		if (elementToSet >= 0 && elementToSet < array.length)
+		{
+			if (checkForUniqueness(valToSet))
+			{
+				array[elementToSet] = valToSet;
+				return true;
+			}
+			else return false;
+		}
+		else return false;
+	}
+	
+	public int getElement(int element)
+	{
+		return array[element];
+	}
+	
+	public Boolean checkForUniqueness(int valToSet)
+	{
+		for (int i=0; i < array.length; i++)
+		{
+			if (array[i] == valToSet)
+					return false;
+		}
+		
+		return true;
+	}
+		
+}

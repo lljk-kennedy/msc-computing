@@ -1,0 +1,27 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+
+
+public class TestSet extends TestCase{
+	private MySet setTestClass;
+	
+	@Override
+	protected void setUp() throws Exception {
+		this.setTestClass = new MySet();
+	}
+
+	@Override
+	protected void tearDown() throws Exception {
+		this.setTestClass = null;
+	}
+	
+	@Test
+	public void testSetSize() {
+		Boolean result = this.setTestClass.setSize(4);
+		
+		assertEquals(true, result);
+	}
+	
+    
+}

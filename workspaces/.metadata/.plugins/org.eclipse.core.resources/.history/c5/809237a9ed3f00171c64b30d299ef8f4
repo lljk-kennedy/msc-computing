@@ -1,0 +1,36 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+
+
+public class TestSet extends TestCase{
+	private Set setTestClass;
+	
+	@Override
+	protected void setUp() throws Exception {
+		this.setTestClass = new Set();
+	}
+
+	@Override
+	protected void tearDown() throws Exception {
+		this.setTestClass = null;
+	}
+	
+    @Test
+    public void testConcatenate() {
+        String result = this.setTestClass.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
+
+    }
+    
+    @Test 
+    public void testSetterAndGetter() {
+    	int[] testArray = {1,2,3,4};
+    	
+    	this.setTestClass.set(testArray);
+    	
+    	assertEquals(testArray, this.setTestClass.get());
+    }
+    
+}

@@ -1,0 +1,20 @@
+public class MySet {
+	
+	private int[] array;
+	
+	public MySet(int sizeToSet)
+	{
+		array = new int[sizeToSet];
+	}
+	
+	public MySet(int[] newArray)
+	{
+		array = newArray;
+	}
+	
+	public Boolean setSize(int sizeToSet)
+	{
+		array = new int[sizeToSet];
+		return true;
+	}
+}

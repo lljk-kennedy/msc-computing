@@ -1,0 +1,30 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+
+
+public class TestSet extends TestCase{
+	private MySet mySet;
+	
+	@Override
+	protected void setUp() throws Exception {
+		this.mySet = new MySet(new int[] {1,2,3,4});
+	}
+
+	@Override
+	protected void tearDown() throws Exception {
+		this.mySet = null;
+	}
+	
+	@Test
+	public void testChangeElement() {
+		int valToSet = 5;
+		int elementToSet = 5;
+		
+		mySet.changeElement(elementToSet, valToSet);
+		
+		assertEquals(mySet.getElement(elementToSet), valToSet);
+	}
+	
+
+}

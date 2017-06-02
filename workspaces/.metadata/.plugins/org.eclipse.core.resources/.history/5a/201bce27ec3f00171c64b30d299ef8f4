@@ -1,0 +1,24 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class TestSet {
+	private Set set;
+	
+	@Override
+	protected void setUp() throws Exception {
+		this.set = new Set();
+	}
+
+	@Override
+	protected void tearDown() throws Exception {
+		this.set = null;
+	}
+	
+    @Test
+    public void testConcatenate() {
+        String result = this.set.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
+
+    }
+}

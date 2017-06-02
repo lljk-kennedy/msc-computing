@@ -1,0 +1,22 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class TestSet {
+	private Set set;
+	
+	public void setUp() {
+		set = new Set();
+	}
+
+	public void tearDown() {
+		set = null;
+	}
+	
+    @Test
+    public void testConcatenate() {
+        String result = set.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
+
+    }
+}

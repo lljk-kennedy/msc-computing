@@ -1,0 +1,91 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
+
+
+public class TestSet extends TestCase{
+	private MySet mySet;
+	
+	@Override
+	protected void setUp() throws Exception {
+		this.mySet = new MySet(new int[] {1,2,3,4});
+	}
+
+	@Override
+	protected void tearDown() throws Exception {
+		this.mySet = null;
+	}
+	
+	@Test
+	public void testChangeElement() {
+		int valToSet = 5;
+		int elementToSet = 0;
+		
+		Boolean result = mySet.changeElement(elementToSet, valToSet);
+		
+		assertEquals(mySet.getElement(elementToSet), valToSet);
+		assertTrue(result);
+	}
+	
+	@Test
+	public void testCheckForNonUniqueness()
+	{
+		int valToSet = 3;
+		Boolean result = this.mySet.checkForUniqueness(valToSet);	
+		assertFalse(result);
+	}
+	
+	@Test
+	public void testCheckForUniqueness()
+	{
+		int valToSet = 15;
+		Boolean result = this.mySet.checkForUniqueness(valToSet);
+		assertTrue(result);
+	}
+	
+	@Test
+	public void testIsMemberTrue()
+	{
+		int valToCheck = 1;
+		
+		Boolean result = this.mySet.isMember(valToCheck);
+		assertTrue(result);
+	}
+	
+	public void testIsMemberTrueStatic()
+	{
+		int valToCheck = 1;
+		
+		Boolean result = MySet.isMember(valToCheck, new int[] {1,2,3,4});
+		assertTrue(result);
+	}
+	
+	public void testIsMemberFalse()
+	{
+		int valToCheck = 18;
+		
+		Boolean result = this.mySet.isMember(valToCheck);
+		assertFalse(result);
+	}
+	
+	public void testIsMemberFalseStatic()
+	{
+		int valToCheck = 18;
+		
+		Boolean result = MySet.isMember(valToCheck, new int[] {1,2,3,4});
+		assertFalse(result);
+	}
+	
+	public void testUnion()
+	{
+		MySet set1 = new MySet(new int[] {1,2,3,4});
+		MySet set2 = new MySet(new int[] {2,3,4,5});
+		
+		MySet setUnion = MySet.Union(set1, set2);
+		
+		MySet testSet = new MySet(new int[] {1,2,3,4,5});
+		
+		assertEquals(testSet, setUnion);
+	}
+
+}

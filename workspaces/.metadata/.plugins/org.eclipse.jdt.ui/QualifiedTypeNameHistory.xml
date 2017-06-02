@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="javax.jms.Message"/>
 <fullyQualifiedTypeName name="javax.jms.TextMessage"/>
 <fullyQualifiedTypeName name="javax.jms.JMSException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

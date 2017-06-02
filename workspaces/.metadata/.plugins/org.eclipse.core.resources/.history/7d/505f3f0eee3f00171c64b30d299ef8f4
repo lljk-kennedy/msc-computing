@@ -1,0 +1,15 @@
+public class MySet {
+	
+	private int[] array;
+	
+	public MySet()
+	{
+		
+	}
+	
+	public bool 
+	
+    public String concatenate(String one, String two){
+        return one + two;
+    }
+}
